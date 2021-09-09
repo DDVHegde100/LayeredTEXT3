@@ -1,0 +1,60 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+.number {
+  position: relative;
+  animation: rotate 2s infinite ease-in-out;
+}
+
+span:nth-child(1) {
+  position: absolute;
+  font-weight: bold;
+  filter: blur(10rem);
+  color: #0067ff;
+}
+
+span:nth-child(2) {
+  position: absolute;
+  font-weight: bold;
+  filter: blur(1.3rem);
+  background: -webkit-linear-gradient(45deg, #b8fff2 0%, #ff8e42 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span:nth-child(3) {
+  position: absolute;
+  font-weight: 700;
+  filter: blur(0.3rem);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+span:nth-child(4) {
+  position: absolute;
+  font-weight: 700;
+  background: -webkit-linear-gradient(45deg, #b8fff2 0%, #ff8e42 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span:nth-child(5) {
+  position: absolute;
+  color: black;
+  filter: blur(1px);
+  text-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.7);
+}
+
+span:nth-child(6) {
+  position: relative;
+  background: -webkit-linear-gradient(45deg, #b8fff2 0%, #ff8e42 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
